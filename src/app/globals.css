@@ -1,26 +1,83 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #050510;
+  --foreground: #f4ead8;
+  --gold: #d4af37;
+  --gold-soft: #e8d5a3;
+  --night: #07061a;
+  --indigo: #1a1440;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-gold: var(--gold);
+  --color-gold-soft: var(--gold-soft);
+  --color-night: var(--night);
+  --color-indigo: var(--indigo);
+  --font-sans: var(--font-outfit);
+  --font-serif: var(--font-cormorant);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
+html,
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  font-family: var(--font-outfit), system-ui, sans-serif;
+}
+
+::selection {
+  background: color-mix(in srgb, var(--gold) 40%, transparent);
+  color: #fff8e7;
+}
+
+.font-serif {
+  font-family: var(--font-cormorant), Georgia, serif;
+}
+
+.gold-border {
+  border: 1px solid color-mix(in srgb, var(--gold) 35%, transparent);
+}
+
+.panel-glass {
+  background: linear-gradient(
+    165deg,
+    rgb(12 10 32 / 0.78),
+    rgb(8 7 22 / 0.88)
+  );
+  backdrop-filter: blur(18px);
+}
+
+.milky-haze {
+  background:
+    radial-gradient(ellipse 80% 50% at 50% 35%, rgb(90 70 160 / 0.28), transparent 60%),
+    radial-gradient(ellipse 40% 30% at 70% 20%, rgb(80 120 180 / 0.18), transparent 50%),
+    radial-gradient(ellipse 45% 35% at 25% 70%, rgb(40 30 90 / 0.45), transparent 55%);
+}
+
+@keyframes twinkle {
+  0%,
+  100% {
+    opacity: 0.35;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.scrollbar-night::-webkit-scrollbar {
+  width: 8px;
+}
+
+.scrollbar-night::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scrollbar-night::-webkit-scrollbar-thumb {
+  background: color-mix(in srgb, var(--gold) 35%, #1a1440);
+  border-radius: 999px;
 }

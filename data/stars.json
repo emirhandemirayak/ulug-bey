@@ -1,0 +1,242 @@
+[
+  {
+    "id": "sirius",
+    "name": "Sirius (Akyıldız)",
+    "constellation": "Büyük Köpek",
+    "ra": 6.7525,
+    "dec": -16.7161,
+    "mag": -1.46,
+    "ulugh": "Zîc-i Sultânî’de parlak güney yıldızı; kimliği bugün de aynıdır.",
+    "modern": "α CMa, Güneş’ten sonraki en parlak yıldız."
+  },
+  {
+    "id": "canopus",
+    "name": "Canopus",
+    "constellation": "Karina",
+    "ra": 6.3992,
+    "dec": -52.6956,
+    "mag": -0.74,
+    "ulugh": "Semerkant enleminde ufkun altında kalabilir; katalog geleneğinde yer alır.",
+    "modern": "α Car, gökyüzünün ikinci parlak yıldızı."
+  },
+  {
+    "id": "arcturus",
+    "name": "Arcturus (Simak-ı Ramih)",
+    "constellation": "Çoban",
+    "ra": 14.261,
+    "dec": 19.1822,
+    "mag": -0.05,
+    "ulugh": "Kuzey göğünün parlak turuncu yıldızı; meridyen gözlemine elverişlidir.",
+    "modern": "α Boo, turuncu dev."
+  },
+  {
+    "id": "vega",
+    "name": "Vega (Nesr-i Vaki)",
+    "constellation": "Çalgı",
+    "ra": 18.6156,
+    "dec": 38.7836,
+    "mag": 0.03,
+    "ulugh": "Yaz üçgeni; Semerkant yaz göğünde yüksekte.",
+    "modern": "α Lyr, ICRS’e yakın referans yıldızlardan."
+  },
+  {
+    "id": "capella",
+    "name": "Capella (Ayduk)",
+    "constellation": "Arabacı",
+    "ra": 5.2782,
+    "dec": 45.998,
+    "mag": 0.08,
+    "ulugh": "Kuzey kış göğünün parlak çifti.",
+    "modern": "α Aur."
+  },
+  {
+    "id": "rigel",
+    "name": "Rigel",
+    "constellation": "Avcı",
+    "ra": 5.2423,
+    "dec": -8.2017,
+    "mag": 0.13,
+    "ulugh": "Cevza (Avcı) ayağındaki mavi süperdev.",
+    "modern": "β Ori."
+  },
+  {
+    "id": "procyon",
+    "name": "Procyon",
+    "constellation": "Küçük Köpek",
+    "ra": 7.655,
+    "dec": 5.2249,
+    "mag": 0.34,
+    "ulugh": "Kış üçgeninin üçüncü köşesi.",
+    "modern": "α CMi."
+  },
+  {
+    "id": "betelgeuse",
+    "name": "Betelgeuse (Menkib)",
+    "constellation": "Avcı",
+    "ra": 5.9195,
+    "dec": 7.4071,
+    "mag": 0.42,
+    "ulugh": "Cevza’nın omzu; kırmızımsı parlak yıldız.",
+    "modern": "α Ori, değişen kırmızı süperdev."
+  },
+  {
+    "id": "altair",
+    "name": "Altair (Nesr-i Tair)",
+    "constellation": "Kartal",
+    "ra": 19.8464,
+    "dec": 8.8683,
+    "mag": 0.76,
+    "ulugh": "Yaz üçgeni.",
+    "modern": "α Aql."
+  },
+  {
+    "id": "aldebaran",
+    "name": "Aldebaran (Debaran)",
+    "constellation": "Boğa",
+    "ra": 4.5987,
+    "dec": 16.5093,
+    "mag": 0.85,
+    "ulugh": "Boğa’nın gözü; ekliptik yakınında, zîc bakışına uygun.",
+    "modern": "α Tau."
+  },
+  {
+    "id": "spica",
+    "name": "Spica (Simak-ı Azel)",
+    "constellation": "Başak",
+    "ra": 13.4199,
+    "dec": -11.1613,
+    "mag": 0.97,
+    "ulugh": "Ekliptiğe yakın parlak yıldız; boylam ölçüleri için önemli.",
+    "modern": "α Vir."
+  },
+  {
+    "id": "antares",
+    "name": "Antares (Kalb-ül-Akrab)",
+    "constellation": "Akrep",
+    "ra": 16.4901,
+    "dec": -26.432,
+    "mag": 1.09,
+    "ulugh": "Akrep’in kalbi; ekliptik yakınında.",
+    "modern": "α Sco."
+  },
+  {
+    "id": "pollux",
+    "name": "Pollux",
+    "constellation": "İkizler",
+    "ra": 7.7553,
+    "dec": 28.0262,
+    "mag": 1.14,
+    "ulugh": "İkizler’in turuncu bileşeni.",
+    "modern": "β Gem."
+  },
+  {
+    "id": "fomalhaut",
+    "name": "Fomalhaut",
+    "constellation": "Güney Balığı",
+    "ra": 22.9608,
+    "dec": -29.6222,
+    "mag": 1.16,
+    "ulugh": "Sonbahar güney ufku.",
+    "modern": "α PsA."
+  },
+  {
+    "id": "deneb",
+    "name": "Deneb (Redif)",
+    "constellation": "Kuğu",
+    "ra": 20.6905,
+    "dec": 45.2803,
+    "mag": 1.25,
+    "ulugh": "Yaz üçgeninin kuzey köşesi.",
+    "modern": "α Cyg."
+  },
+  {
+    "id": "regulus",
+    "name": "Regulus (Kalb-ül-Esed)",
+    "constellation": "Aslan",
+    "ra": 10.1395,
+    "dec": 11.9672,
+    "mag": 1.35,
+    "ulugh": "Aslan’ın kalbi; ekliptiğe çok yakın.",
+    "modern": "α Leo."
+  },
+  {
+    "id": "adnenebola",
+    "name": "Denebola",
+    "constellation": "Aslan",
+    "ra": 11.8177,
+    "dec": 14.5721,
+    "mag": 2.14,
+    "ulugh": "Aslan’ın kuyruğu.",
+    "modern": "β Leo."
+  },
+  {
+    "id": "polaris",
+    "name": "Polaris (Demirkazık)",
+    "constellation": "Küçük Ayı",
+    "ra": 2.5303,
+    "dec": 89.2641,
+    "mag": 1.98,
+    "ulugh": "Kuzey yönü; 15. yy’de kutba bugünkü kadar yapışık değildi (presesyon).",
+    "modern": "α UMi, günümüz kutup yıldızı."
+  },
+  {
+    "id": "alnath",
+    "name": "El Nath",
+    "constellation": "Boğa",
+    "ra": 5.4382,
+    "dec": 28.6075,
+    "mag": 1.65,
+    "ulugh": "Boğa’nın boynuzu.",
+    "modern": "β Tau."
+  },
+  {
+    "id": "alnilam",
+    "name": "Alnilam",
+    "constellation": "Avcı",
+    "ra": 5.6036,
+    "dec": -1.2019,
+    "mag": 1.69,
+    "ulugh": "Cevza kuşağının orta yıldızı.",
+    "modern": "ε Ori."
+  },
+  {
+    "id": "alnitak",
+    "name": "Alnitak",
+    "constellation": "Avcı",
+    "ra": 5.6793,
+    "dec": -1.9426,
+    "mag": 1.77,
+    "ulugh": "Cevza kuşağının doğu yıldızı.",
+    "modern": "ζ Ori."
+  },
+  {
+    "id": "mintaka",
+    "name": "Mintaka",
+    "constellation": "Avcı",
+    "ra": 5.5334,
+    "dec": -0.2991,
+    "mag": 2.23,
+    "ulugh": "Cevza kuşağının batı yıldızı; ekvatora yakın.",
+    "modern": "δ Ori."
+  },
+  {
+    "id": "dubhe",
+    "name": "Dubhe",
+    "constellation": "Büyük Ayı",
+    "ra": 11.0621,
+    "dec": 61.751,
+    "mag": 1.79,
+    "ulugh": "Büyük Ayı’nın işaretçilerinden; kutba yön gösterir.",
+    "modern": "α UMa."
+  },
+  {
+    "id": "alioth",
+    "name": "Alioth",
+    "constellation": "Büyük Ayı",
+    "ra": 12.9004,
+    "dec": 55.9598,
+    "mag": 1.77,
+    "ulugh": "Büyük Ayı’nın en parlak üyesi.",
+    "modern": "ε UMa."
+  }
+]
