@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useCallback, useRef, useState } from "react";
 import { ChatPanel, type ChatMessage } from "./ChatPanel";
 import { Starfield } from "./Starfield";
@@ -159,12 +160,20 @@ export function HomeExperience() {
             </button>
           ))}
         </div>
-        <a
-          href="#sohbet"
-          className="mt-12 text-xs uppercase tracking-[0.25em] text-gold/80 hover:text-gold"
-        >
-          Sohbete in
-        </a>
+        <div className="mt-12 flex flex-col items-center gap-5">
+          <Link
+            href="/yildizlar"
+            className="rounded-full border border-gold bg-gold/15 px-6 py-3 text-sm text-gold-soft backdrop-blur-sm transition hover:bg-gold/30"
+          >
+            Uluğ Bey’in yıldızlarını modern ölçümle karşılaştır →
+          </Link>
+          <a
+            href="#sohbet"
+            className="text-xs uppercase tracking-[0.25em] text-gold/80 hover:text-gold"
+          >
+            Sohbete in
+          </a>
+        </div>
       </section>
 
       <section
